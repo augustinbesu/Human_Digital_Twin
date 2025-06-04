@@ -1,0 +1,43 @@
+pi@raspberrypi:~/Desktop/TFG_Augustin/websockets $ uname -a
+Linux raspberrypi 6.6.62+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.62-1+rpt1 (2024-11-25) aarch64 GNU/Linux
+pi@raspberrypi:~/Desktop/TFG_Augustin/websockets $ lscpu
+Architecture:             aarch64
+  CPU op-mode(s):         32-bit, 64-bit
+  Byte Order:             Little Endian
+CPU(s):                   4
+  On-line CPU(s) list:    0-3
+Vendor ID:                ARM
+  Model name:             Cortex-A72
+    Model:                3
+    Thread(s) per core:   1
+    Core(s) per cluster:  4
+    Socket(s):            -
+    Cluster(s):           1
+    Stepping:             r0p3
+    CPU(s) scaling MHz:   40%
+    CPU max MHz:          1500,0000
+    CPU min MHz:          600,0000
+    BogoMIPS:             108,00
+    Flags:                fp asimd evtstrm crc32 cpuid
+Caches (sum of all):      
+  L1d:                    128 KiB (4 instances)
+  L1i:                    192 KiB (4 instances)
+  L2:                     1 MiB (1 instance)
+NUMA:                     
+  NUMA node(s):           1
+  NUMA node0 CPU(s):      0-3
+Vulnerabilities:          
+  Gather data sampling:   Not affected
+  Itlb multihit:          Not affected
+  L1tf:                   Not affected
+  Mds:                    Not affected
+  Meltdown:               Not affected
+  Mmio stale data:        Not affected
+  Reg file data sampling: Not affected
+  Retbleed:               Not affected
+  Spec rstack overflow:   Not affected
+  Spec store bypass:      Vulnerable
+  Spectre v1:             Mitigation; __user pointer sanitization
+  Spectre v2:             Vulnerable
+  Srbds:                  Not affected
+  Tsx async abort:        Not affected
