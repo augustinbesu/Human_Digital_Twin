@@ -5,8 +5,8 @@
 void setup()
 {
   Serial.begin(115200);
-  // Inicializamos el bus I2C en los pines 21 (SDA) y 22 (SCL) del ESP32
-  Wire.begin(21, 22);  
+  // Inicializamos el bus I2C sin especificar pines (usará los predeterminados)
+  Wire.begin();  
 }
 
 void Scanner ()
