@@ -1,3 +1,5 @@
+/* USING BALL OBJECTS TO SHOW POSITION (WITHOUT HUMANOID MODEL) */
+
 using System;
 using System.Collections.Generic;
 using System.Net;
